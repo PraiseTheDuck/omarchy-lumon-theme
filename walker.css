@@ -34,7 +34,7 @@
 
 @define-color selected-text #f2fcff;
 @define-color text #d6e2ee;
-@define-color base #08131c;
+@define-color base #1b2d40;
 @define-color panel #0c1822;
 @define-color border #304860;
 @define-color border-bright #6fb8e3;
@@ -43,7 +43,7 @@
 @define-color selected-bg #112a3c;
 @define-color muted #89a1b8;
 @define-color foreground #d6e2ee;
-@define-color background #08131c;
+@define-color background #1b2d40;
 
 * {
     all: unset;

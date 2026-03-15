@@ -42,8 +42,8 @@ return {
 			transparent = false,
 			colors = {
 				-- Background colors
-				bg = "#0b1822",
-				bg_dark = "#0b1822",
+				bg = "#1b2d40",
+				bg_dark = "#1b2d40",
 				bg_highlight = "#355066",
 
 				-- Foreground colors

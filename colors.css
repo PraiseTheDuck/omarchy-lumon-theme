@@ -38,7 +38,7 @@
 */
 
   /* ANSI palette */
-  @define-color color0 #08131c;
+  @define-color color0 #1b2d40;
   @define-color color1 #4d86b0;
   @define-color color2 #5e95bc;
   @define-color color3 #6fa4c9;
@@ -56,7 +56,7 @@
   @define-color color15 #ffffff;
 
   /* Optional semantic aliases */
-  @define-color background #08131c;
+  @define-color background #1b2d40;
   @define-color foreground #d6e2ee;
   @define-color accent #6fb8e3;
   @define-color selection_bg #4d9ed3;
