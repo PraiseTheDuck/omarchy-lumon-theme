@@ -50,7 +50,7 @@ terminal_colors:
     cyan:    "#b4e4f6"
     white:   "#d6e2ee"
   bright:
-    black:   "#304860"
+    black:   "#4A6B80"
     red:     "#73a6cb"
     green:   "#86b7d8"
     yellow:  "#9dcae5"
