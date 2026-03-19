@@ -52,7 +52,24 @@ To install the bundled launcher and icon:
 cd ~/.config/omarchy/themes/lumon && ./install-lumon-launcher.sh
 ```
 
-This installer copies the bundled desktop entry and icon into Omarchy's standard local applications paths. The launcher then opens the Lumon Macrodata Refiner web application through `omarchy-launch-webapp`, allowing refiners to begin their assigned duties in a properly sanctioned browser shell.
+To remove the bundled launcher and icon:
+
+```bash
+cd ~/.config/omarchy/themes/lumon && ./uninstall-lumon-launcher.sh
+```
+
+The installer copies the bundled desktop entry and Hyprland icon into Omarchy's standard local applications paths:
+
+```text
+~/.local/share/applications/Lumon Macrodata Refiner.desktop
+~/.local/share/applications/icons/Lumon Macrodata Refiner.png
+```
+
+The uninstall script removes those installed launcher files from the selected applications directory.
+
+The launcher then opens the Lumon Macrodata Refiner web application through `omarchy-launch-webapp`, allowing refiners to begin their assigned duties in a properly sanctioned browser shell.
+
+Omarchy theme installation does not currently run theme post-install hooks automatically, so the launcher installer must be run manually once after theme installation.
 
 If your workstation has received the launcher, open your application launcher and search for:
 
@@ -74,6 +91,7 @@ Employees are advised not to speculate on the meaning of the numbers.
 
 - A Hyprland-based Omarchy setup
 - A terminal with support for theme import
+- `gum` for the interactive launcher install and uninstall scripts
 - A healthy respect for fluorescent blue-white contrast
 - Optional: run `install-lumon-launcher.sh` to install the bundled launcher for full workplace immersion
 
