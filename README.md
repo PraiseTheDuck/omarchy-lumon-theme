@@ -11,7 +11,7 @@ A cold corporate Omarchy theme inspired by Lumon Industries and the terminal pal
 Per approved Lumon onboarding procedure, install the theme from GitHub:
 
 ```bash
-omarchy-theme-install https://github.com/OldJobobo/omarchy-lumon-theme
+omarchy-theme-install https://github.com/PraiseTheDuck/omarchy-lumon-theme
 ```
 
 Upon successful installation, your workstation may begin exhibiting improved orderliness, emotional partitioning, and respect for clean geometric borders.
